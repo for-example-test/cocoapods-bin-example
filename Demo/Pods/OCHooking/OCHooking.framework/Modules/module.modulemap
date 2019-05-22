@@ -1,0 +1,6 @@
+framework module OCHooking {
+  umbrella header "OCHooking.h"
+
+  export *
+  module * { export * }
+}

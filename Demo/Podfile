@@ -1,0 +1,12 @@
+source 'https://github.com/cocoapods/specs.git'
+
+platform :ios, '8.0'
+
+plugin 'cocoapods-bin'
+use_binaries!
+
+
+target 'Demo' do
+  pod 'YYModel'
+  pod 'OCHooking'
+end
